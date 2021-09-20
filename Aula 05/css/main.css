@@ -78,7 +78,10 @@ h2 {
 }
 
 .filme-container {
-  border-radius: 4px;
+  background-color: #7a1b0c;
+  border-style: solid;
+  border-color: #52170b;
+  border-radius: 15px;
   transition: 0.3s;
 }
 
@@ -108,13 +111,8 @@ h2 {
 
 .filme-container h2 {
   font-size: 16px;
-  display: none;
   overflow: hidden;
   transition: 0.3s;
-}
-
-.filme-container h2:hover {
-  display: block;
 }
 
 
