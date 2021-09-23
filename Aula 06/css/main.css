@@ -4,10 +4,11 @@
 
 body {
   font-family: "Roboto Mono", monospace;
+  font-size: 16px;
   min-height: 400px;
   background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
   background-color: #111;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -53,4 +54,52 @@ tr,
 td {
   border: solid 1px white;
   color: white;
+}
+
+td img {
+  height: 16px;
+  transition: 0.2s;
+}
+
+td img:hover {
+  transition: 0.3s;
+  transform: scale(5.0);
+  border-style: double;
+  border-radius: 2px;
+}
+
+h2 {
+  color: #ffffff;
+  text-size: 1em;
+}
+
+#extra {
+  margin-top: 2vh;
+  display: flex;
+  align-itens: center;
+  justify-content: center;
+}
+
+form {
+  text-align: right;
+}
+
+form label {
+  color: #ffffff;
+}
+
+form input {
+  border-radius: 5px;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #084d6e;
+  padding: auto;
+}
+
+button:hover {
+  opacity: 0.5;
 }
