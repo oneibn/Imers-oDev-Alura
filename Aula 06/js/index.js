@@ -66,7 +66,6 @@ function exibeJogadoresNaTela(jogadores) {
   } if (somaVitorias < somaDerrotas) {
     var diferenca = somaDerrotas - somaVitorias;
     elementoErro.innerHTML = `Algo está errado! Há ${diferenca} derrotas a mais do que vitórias!`
-
   } else {
     elementoErro.innerHTML = ""
   }
