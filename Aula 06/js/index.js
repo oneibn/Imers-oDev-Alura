@@ -18,6 +18,7 @@ var paulo = {
 
 var gui = {
   nome:"Gui",
+  usuario: "guilhermeonrails"
   vitorias: 1,
   empates: 1,
   derrotas: 2,
